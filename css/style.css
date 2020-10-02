@@ -1,0 +1,151 @@
+*{
+    box-sizing:border-box;
+}
+body,p{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container{
+    width:1140px;
+    margin:0 auto;
+}
+ul,li{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+/*HEADER*/
+header{
+    background-color: rgb(25, 12, 111);
+}
+.header__nav{
+    height: 14vh;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+header a{
+    color:#fff;
+    font-size: 16px;
+}
+/*MAIN*/
+.main::after{
+    content: "";
+    background: url(./../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+.main{
+    padding-top: 150px;
+}
+.main__title p{
+    color:#333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.main__text h1{
+    text-transform: uppercase;
+    color:#333;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+}
+.main__btn{
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.main__btn button{
+    margin-top: 70px;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 14px;
+    background: #190C6F;
+    padding:10px 30px;
+    border:none;
+    outline:none;
+    font-family: 'Montserrat', sans-serif;  
+}
+/*ABOUT*/
+.about{
+    background: rgb(25, 12, 111);
+}
+.about__title h2{
+    color:#fff;
+    font-size: 42px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+.about__text{
+    color:#fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.about__btn button{
+    text-transform: uppercase;
+    columns: #666666;
+    background: #fff;
+    padding:10px 30px;
+    margin-bottom: 20px;
+    border:none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+/*GOAL*/
+.goal{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.goal__content{
+    display: flex;
+}
+.goal__img{
+    margin-right: 44px;
+}
+.goal__title h2{
+    margin-top: 0;
+    font-size: 42px;
+    color:#333;
+}
+.goal__text p{
+    color:#333;
+    font-size: 24px;
+}
+/*LEARN*/
+.learn{
+    background-color: rgb(25, 12, 111);
+    padding-bottom: 40px;
+}
+.learn__title h2{
+    padding-top:40px;
+    color:#fff;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+.learn__text{
+    color:#fff;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.learn__text:last-child{
+    margin-bottom: 0;
+}
